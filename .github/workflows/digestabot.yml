@@ -3,8 +3,8 @@ name: Image digest update
 on:
   workflow_dispatch:
   schedule:
-    # At the end of every day
-    - cron: "0 0 * * *"
+    # Once a week on Monday at midnight
+    - cron: "0 0 * * 1"
 
 permissions: {}
 
