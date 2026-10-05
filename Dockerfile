@@ -1,4 +1,4 @@
-FROM cgr.dev/chainguard/jre:latest-dev@sha256:da2afaf35a7b39a570d7106cea440522948dea75b59706926ef0657bb40b0e7d
+FROM cgr.dev/chainguard/jre:latest-dev@sha256:7895698368c1122811b5c11ff9340bdbbba96fdedd84442dda65866759736bab
 
 ARG VERSION="latest"
 USER root
